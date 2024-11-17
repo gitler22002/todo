@@ -1,0 +1,59 @@
+body{
+font-family: cursive;
+background: linear-gradient(to left, red,blue);
+text-align: center;
+}
+h1{
+    color: black;
+}
+#taskInput{
+    border-radius: 9px;
+    padding: 10px;
+    font-size: 16px;
+    width: 50%;
+    margin-right: 10px;
+}
+#addTask{
+    padding: 10px;
+    font-size: 16px;
+    background-color:  rgb(216, 19, 19);
+    color: white;
+    border: none;
+    border-radius: 5px;
+   cursor: pointer;
+}
+#addTask:hover{
+    border-color: rgb(95, 8, 187);
+}
+#taskList{
+    display: flex;
+    flex-direction: column      ;
+    font-display:column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0;
+    list-style-type: none;
+}
+.tasks{
+    background-color: aliceblue;
+    width: 70%;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+.tasks span{
+    font-weight: bold;
+}
+.deleteBtn{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.deleteBtn:hover{
+    background-color: blue;
+}
